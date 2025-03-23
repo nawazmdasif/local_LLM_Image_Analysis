@@ -298,10 +298,10 @@ class ShopAnalyzer:
 
 def main():
     config = {
-        "api_base": "http://127.0.0.1:11434/v1",
+        "api_base": "",
         "model_name": "llama3.2-vision:latest",
-        "images_dir": "images",
-        "output_path": "20250213_Shop_Image_Analysis_02'feb-to 03 mar.xlsx"
+        "images_dir": "",
+        "output_path": ""
     }
 
     analyzer = ShopAnalyzer(config["api_base"], config["model_name"])
